@@ -1,7 +1,7 @@
 from neo4j import GraphDatabase
 from time import sleep
 
-#create driver fro neo4j so we can execute commands
+#create driver for neo4j 
 driver= GraphDatabase.driver(uri = "bolt://localhost:7687", auth = ("neo4j","icd11"))
 
 print('Starting upload script')
