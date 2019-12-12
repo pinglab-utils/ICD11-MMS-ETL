@@ -2,7 +2,7 @@ from neo4j import GraphDatabase
 from time import sleep
 
 #create driver for neo4j 
-driver= GraphDatabase.driver(uri = "bolt://localhost:7687", auth = ("neo4j","icd11"))
+driver= GraphDatabase.driver(uri = "neo4j_url", auth = ("user","password"))
 
 print('Starting upload script')
 #get user input
